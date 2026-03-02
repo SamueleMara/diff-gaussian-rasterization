@@ -1,28 +1,12 @@
 # Differential Gaussian Rasterization
 
-This repository is based on the official rasterization engine used in:
+Used as the rasterization engine for the paper "3D Gaussian Splatting for Real-Time Rendering of Radiance Fields". 
 
-**"3D Gaussian Splatting for Real-Time Radiance Field Rendering"**  
-Kerbl et al., ACM Transactions on Graphics, 2023.
+If you can make use of it in your own research, please be so kind to cite us.
 
-Original implementation:
-https://github.com/graphdeco-inria/diff-gaussian-rasterization
-
-If you use this rasterizer in your research, please cite the original paper:
-
-## BibTeX
-
-@Article{kerbl3Dgaussians,
-  author  = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
-  title   = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
-  journal = {ACM Transactions on Graphics},
-  volume  = {42},
-  number  = {4},
-  month   = {July},
-  year    = {2023},
-  url     = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
-}
-
+BibTeX
+@Article{kerbl3Dgaussians, 
+author = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George}, title = {3D Gaussian Splatting for Real-Time Radiance Field Rendering}, journal = {ACM Transactions on Graphics}, number = {4}, volume = {42}, month = {July}, year = {2023}, url = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/} }
 ---
 
 # Modifications for Fruit3DGS
