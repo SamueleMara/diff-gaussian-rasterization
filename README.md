@@ -1,10 +1,13 @@
 # Differential Gaussian Rasterization
 
-Used as the rasterization engine for the paper "3D Gaussian Splatting for Real-Time Rendering of Radiance Fields". 
+Used as the rasterization engine for the paper  
+**"3D Gaussian Splatting for Real-Time Radiance Field Rendering"**.
 
-If you can make use of it in your own research, please be so kind to cite us.
+If you make use of it in your own research, please cite the original work.
 
-BibTeX
+## BibTeX
+
+```bibtex
 @article{kerbl3Dgaussians,
   author  = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
   title   = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
@@ -15,20 +18,23 @@ BibTeX
   year    = {2023},
   url     = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
 }
+```
+
+---
 
 # Modifications for Fruit3DGS
 
 This fork includes additional functionality introduced for the **Fruit3DGS** framework.
 
-The modifications are focused on enabling semantic supervision, instance-level reasoning, and 3D fruit localization.
+The modifications focus on enabling semantic supervision, instance-level reasoning, and 3D fruit localization.
 
 ## Added Features
 
-- Semantic supervision support integrated into rasterization outputs
-- Top-K Gaussian contributor extraction for instance-aware rendering
-- Compatibility with instance embedding clustering pipeline
-- Extensions for fruit counting and 3D localization workflows
-- Improved integration with custom segmentation-based training pipelines
+- Semantic supervision support integrated into rasterization outputs  
+- Top-K Gaussian contributor extraction for instance-aware rendering  
+- Compatibility with instance embedding clustering pipeline  
+- Extensions for fruit counting and 3D localization workflows  
+- Improved integration with custom segmentation-based training pipelines  
 
 These changes are specifically designed to support:
 
@@ -40,5 +46,5 @@ The core rasterization methodology remains based on the original work by Kerbl e
 
 ## Acknowledgement
 
-We gratefully acknowledge the original authors for releasing their implementation.
+We gratefully acknowledge the original authors for releasing their implementation.  
 This fork builds directly upon their rasterization engine while extending it for agricultural 3D perception research.
